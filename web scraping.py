@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd
+import pandas as p
 
 # getting search query and embedding it into 'get' request.
 query = input("Enter the product name: ").strip().replace(" ","+")
